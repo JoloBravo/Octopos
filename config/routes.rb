@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  
+  
+
+  get 'dashboard/main'
+
+  get 'dashboard/tables'
+
+  get 'dashboard/grid'
+
+  get 'dashboard/elements'
+
+  get 'dashboard/form'
+
+  get 'dashboard/charts'
+
+  devise_for :users
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
